@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center|bottom"
+        android:layout_weight="0.3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="T I N K E R L U S T"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:padding="8dp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="42dp"
+            android:hint="Email Address"
+            android:textSize="13dp"
+            android:textColor="#FFF"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textColorHint="@color/colorWhite"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textAllCaps="false"
+            android:paddingLeft="10dp"
+            android:background="@drawable/roundedbordercolor"
+
+            />
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="42dp"
+            android:textSize="13dp"
+            android:hint="Password"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFF"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:background="@drawable/roundedbordercolor"
+            android:textColorHint="@color/colorWhite"
+            android:textAllCaps="false"
+
+
+            />
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/Loginbutn"
+            android:text="Login"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            android:background="@drawable/borderononeside"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+           android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/forgotpassword"
+            android:textColor="@color/colorWhite"
+            android:text="Forgot password"/>
+
+            />
+        <View
+            android:layout_width="120dp"
+            android:layout_height="0.1dp"
+            android:layout_gravity="center"
+            android:background="@color/colorWhite"
+            ></View>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/registerLayout"
+        android:background="@drawable/roundedbordercolor"
+        android:layout_weight="0.1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account?"
+            android:textSize="14dp"
+
+            android:layout_marginLeft="70dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:layout_gravity="center"
+            android:layout_weight="0.5"
+            android:textAllCaps="false"
+
+
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Register."
+            android:textColor="@color/colorWhite"
+            android:layout_gravity="center"
+            android:layout_weight="0.3"
+            android:textStyle="bold"/>
+</LinearLayout>
+    </LinearLayout>
+
+
+
+<!--
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="42dp"
+android:orientation="horizontal"
+android:weightSum="1"
+android:gravity="bottom"
+android:background="@drawable/rounded_border"
+    >
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Don't have an account?"
+    android:textSize="14dp"
+
+    android:layout_marginLeft="70dp"
+    android:textAlignment="center"
+    android:textColor="@color/colorWhite"
+    android:textColorHint="@color/colorWhite"
+    android:layout_gravity="center"
+    android:layout_weight="0.5"
+    android:textAllCaps="false"
+
+
+    />
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Register."
+    android:textColor="@color/colorWhite"
+    android:layout_gravity="center"
+    android:layout_weight="0.3"
+    android:textStyle="bold"/>
+
+</LinearLayout>-->

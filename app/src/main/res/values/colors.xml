@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blackscreen">#121C26</color>
+
+    <color name="colorYellow">#FFC602</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colormyblue">#303f9f</color>
+    <color name="buttoncolor">#121C26</color>
+    <color name="notificationbackground">#DA4437</color>
+    <color name="colorred2">#f15d57</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGrey">#3b4141</color>
+    <color name="colorGreen">#0fbb40</color>
+    <color name="colorhint">#b2bcbc</color>
+    <color name="colortext">#3a4141</color>
+    <color name="colorRed">#fe0221</color>
+    <color name="colorskyblue"> #FF297CC1</color>
+    <color name="pinkHeading"> #EC028D</color>
+</resources>

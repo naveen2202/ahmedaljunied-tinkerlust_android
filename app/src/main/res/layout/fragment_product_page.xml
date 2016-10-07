@@ -1,0 +1,150 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"
+        android:id="@+id/scrollview"
+        >
+        <include layout="@layout/product_detail_layout"/>
+
+    </ScrollView>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#363636"
+    android:orientation="horizontal"
+    android:layout_gravity="top"
+    android:paddingLeft="20dp">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/profile"
+        android:layout_gravity="center_vertical"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp">
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="5dp"
+           >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item for sale by"
+            android:textSize="15sp"
+            android:textColor="#fff"
+            android:paddingRight="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Samira Shihab"
+            android:textSize="15sp"
+            android:textColor="@color/pinkHeading"
+            />
+       </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="September 10,2016"
+            android:textSize="13sp"
+            android:textColor="#bebebe"
+            android:paddingLeft="5dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_gravity="bottom"
+    android:background="@drawable/shadow"
+    android:weightSum="1"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+android:textColor="#121212"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:text=" RP 590.000,00"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+android:textColor="#FFFFFF"
+        android:background="@color/pinkHeading"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:text=" BUY"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/shareLayout"
+        android:visibility="gone"
+        android:background="#60000000">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Share It With"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="#fff"
+            android:textSize="26sp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:src="@drawable/mail_icon"
+               android:id="@+id/mailIcon"
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:src="@drawable/fb_icon"
+                android:id="@+id/fbIcon"
+
+                />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:src="@drawable/twitter_icon"
+                android:id="@+id/twitterIcon"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

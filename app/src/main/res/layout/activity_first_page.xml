@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_first_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollimage">
+
+    </android.support.v4.view.ViewPager>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textColor="@color/blackscreen"
+        android:layout_marginTop="13dp"
+        android:text="T  I  N  K  E  R  L  U  S  T"/>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:layout_gravity="bottom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:gravity="center"
+            android:textSize="15dp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:text="INDONESIA'S STYLISH \n PRE-LOVED MARKET PLACE"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+android:layout_margin="10dp"
+            android:textColor="@color/colorWhite"
+
+            android:text="Tinkerlust is the simplest way to buy and sell\n with friendly trusted community."/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center">
+<ImageView
+    android:layout_width="10dp"
+    android:layout_height="10dp"
+    android:id="@+id/imageview1"
+    android:background="@drawable/whitecircle"
+    android:layout_marginLeft="5dp"/>
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:id="@+id/imageview2"
+
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/lightcircleimage"
+
+            />
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:id="@+id/imageview3"
+
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/lightcircleimage"
+            />
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:id="@+id/imageview4"
+
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/lightcircleimage"
+            />
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Login"
+android:id="@+id/login"
+            android:textSize="13dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/roundedborderwhite"
+            android:layout_gravity="left" />
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:text="Sign up"
+            android:id="@+id/signup"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/roundedborderwhite"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right" />
+
+</FrameLayout>
+    </LinearLayout>
+</FrameLayout>
+</FrameLayout>

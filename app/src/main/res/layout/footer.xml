@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#363636">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Who we are"
+        />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+    android:text="FAQ"
+        />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Privacy policy"
+        />
+<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+    android:text="Terms of use"
+        />
+<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+    android:layout_gravity="center"
+    android:text="Sign Out"
+    android:drawablePadding="10dp"
+    android:drawableLeft="@drawable/signout_icon"
+        />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:textSize="20sp"
+    android:text="T I N K E R L U S T"
+    android:gravity="center"
+    android:textColor="#939393"
+    />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:textSize="12sp"
+    android:text="Version 0.0.1"
+    android:gravity="center"
+    android:textColor="#939393"
+    />
+ <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="7dp"
+     android:layout_marginBottom="15dp"
+    android:textSize="10sp"
+    android:text="\@2016 Tinkerlust | PT. Momentum Global Partner"
+    android:gravity="center"
+    android:textColor="#939393"
+    />
+
+</LinearLayout>

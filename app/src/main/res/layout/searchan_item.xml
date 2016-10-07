@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:include="http://schemas.android.com/tools"
+    android:background="#383838">
+
+    <EditText
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:theme="@style/MyEditTextTheme"/>
+<ImageView
+    android:layout_width="25dp"
+    android:layout_height="25dp"
+    android:background="@drawable/searching_an_item"/>
+</android.support.v7.widget.Toolbar>
